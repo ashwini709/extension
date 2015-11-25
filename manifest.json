@@ -1,0 +1,22 @@
+{
+  "name": "Improved new tab page",
+  "description": "Display bookmarks on the new tab page",
+  "version": "0.1",
+  "manifest_version": 2,
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "start-page.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "chrome://favicon/",
+    "topSites",
+    "tabs",
+    "geolocation",
+    "unlimitedStorage",
+    "notifications"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://api.openweathermap.org https://www.bing.com https://www.google.com; object-src 'self'"
+}

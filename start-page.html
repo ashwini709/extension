@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <!-- <title>Hello Sunshine!</title> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body id='target' class="bg">
+    <div class="weather-container">
+      <div id="weather"></div>
+      <div id="location"></div>
+    </div>
+    <div id="time"></div>
+    <div class="search-container jq-autocomplete">
+      <input id="search-bar" type="text" class="typeahead form-control empty" placeholder="Looking for something?" >
+    </div>
+    <div class="settings">
+      <i class="fa fa-cog"></i>
+      <ul id="optionsMenu" class="hidden">
+        <span>Select Background Type</span>
+        <li id="1">Black and White</li>
+        <li id="2">Birds etc</li>
+        <li id="3">Reflection</li>
+        <li id="4">Scenic</li>
+        <li id="5">Sky</li>
+        <li id="6">SkyLines</li>
+        <li id="7">Random</li>
+      </ul>
+    </div>
+  </body>
+  <script src="/lib/jquery-2.1.3.min.js"></script>
+  <script src="/lib/jquery-ui.min.js"></script>
+  <script src="main.js"></script>
+</html>
